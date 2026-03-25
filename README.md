@@ -1,6 +1,8 @@
 # 🚀 SnapFix
 
-Scan programming errors from screenshots and get instant, structured fixes using AI.
+SnapFix is a mobile-first debugging tool that converts programming error screenshots into structured, easy-to-understand fixes using AI.
+
+Instead of manually searching errors, just capture or upload a screenshot and get instant solutions.
 
 ---
 
@@ -15,6 +17,7 @@ Scan programming errors from screenshots and get instant, structured fixes using
   - Cause
   - Fix
   - Example Code
+- ⚡ Fast and focused debugging workflow
 
 ---
 
@@ -24,6 +27,22 @@ Scan programming errors from screenshots and get instant, structured fixes using
 - Expo Router
 - Gemini API
 - react-native-markdown-display
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+  index.js
+  capture.js
+  processing.js
+  result.js
+
+services/
+  aiService.js
+
+```
 
 ---
 
@@ -67,6 +86,12 @@ npx expo start
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Abhishek Rawat
+
+---
+
+## 💡 Why SnapFix?
+
+SnapFix simplifies debugging by turning error screenshots into clear, actionable fixes — reducing the need to manually search and interpret errors.
