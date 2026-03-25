@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "snapfix",
+    "slug": "snapfix",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "sample",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.abhirawat8076.snapfix"
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "adb79907-f236-416d-92f8-775c4c17dfe5"
+      }
+    },
+    "owner": "abhirawat8076"
+  }
+}
